@@ -9,15 +9,13 @@ p {
   margin: 0;
 }
 
-p:last-child {
-  margin-bottom: 0;
-}
-
-ul {
+ul, ol {
   margin: 0;
   padding: 0;
   list-style: none;
+  list-style-type: none;
 }
+
 
 a {
   color: currentColor;
@@ -33,3 +31,4 @@ img {
   max-width: 100%;
   height: auto;
 }
+
