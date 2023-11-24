@@ -95,4 +95,9 @@
     row-gap: 20px;
     justify-content: center;
     }
+
+    .collection-li {
+    max-width: 347px;
+    flex-basis: calc((100% - 20px) / 2);
+    }
  }
