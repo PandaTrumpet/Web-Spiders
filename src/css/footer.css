@@ -5,12 +5,9 @@
   background-repeat: no-repeat;
   background-position: center bottom;
   padding-bottom: 292px;
-  
-  
 }
- .footer-container {
-  
-} 
+.footer-container {
+}
 
 .footer-menu-link {
   color: #fcf9f9;
@@ -25,7 +22,6 @@
   font-weight: 400;
   line-height: 1.22;
   letter-spacing: -0.03em;
-  /* width: 335px; */
   margin-top: 40px;
 }
 
@@ -45,8 +41,6 @@
   gap: 25px;
 }
 
-
-
 @media screen and (max-width: 767px) and (min-resolution: 192dpi),
   screen and (min-resolution: 2dppx) and (max-width: 767px),
   screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
@@ -55,28 +49,51 @@
   }
 }
 
-
 @media screen and (min-width: 768px) {
-    .container {
-      max-width: 736px;
-    }
-    .footer-menu-container {
-        gap: 25px;
-    }
-.footer-menu,
-.footer-menu-second {
+  .container {
+    max-width: 736px;
+  }
+  .footer-menu-container {
+    gap: 25px;
+  }
+  .footer-menu,
+  .footer-menu-second {
     display: flex;
     flex-direction: row;
     gap: 25px;
-}
-.footer-title {
-    max-width: 521px;
-}
-.page-footer {
+  }
+  .footer-title {
+    width: 521px;
+    margin-top: 80px;
+
+    font-size: 54px;
+    line-height: 1.18;
+    letter-spacing: -0.03em;
+  }
+  .page-footer {
     background-image: url('../img/tablet/footer-bg-tablet.png');
     background-position: right bottom;
     background-repeat: no-repeat;
-    
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
 }
 
+@media screen and (min-width: 1280px) {
+  .container {
+    max-width: 1113px;
   }
+  .page-footer {
+    background-image: url('../img/desktop/footer-bg-desktop.png');
+    background-position: right;
+    background-repeat: no-repeat;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .footer-title {
+    margin-top: 117px;
+    width: 754px;
+    font-size: 64px;
+    line-height: 1.15;
+  }
+}
