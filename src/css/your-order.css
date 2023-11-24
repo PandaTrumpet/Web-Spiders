@@ -1,10 +1,16 @@
-/* MOBILE ORDER SECTION */
+/* MOBILE ORDER STYLE */
 .picture-order{
     display: none;
 }
 .order-bg-img{
-    width: 375px;
+    min-width: 375px;
     height: 550px;
+    margin-bottom: 80px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 80px;
 }
 .order-title{
@@ -68,7 +74,76 @@ color: rgba(252, 249, 249, 0.50);
     color: #FCF9F9;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 20px;
 }
 .order-send-icon{
     line-height: 0;
+}
+/* MOBILE ORDER STYLE /*/
+
+/* TABLET ORDER STYLE */
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 736px;
+    }
+    .order-bg-img{
+        width: 768px;
+        height: 776px;
+        margin-bottom: 100px;
+    }
+.order-title {
+max-width: 542px;
+font-size: 44px;
+line-height: 1.318;
+letter-spacing: -0.03em;
+margin-right: 0;
+margin-left: 0;
+}
+.text-form {
+    height: 50px;
+    width: 508px;
+}
+.comments-form {
+    height: 196px;
+     width: 508px;
+}
+.send-btn {
+margin-right: 0;
+margin-left: 0;
+margin-bottom: 100px;
+}
+.picture-order{
+    display: block;
+}
+.picture-vyshivanka{
+    display: block;
+    position: absolute;
+    right: 3%;
+    height: 521px;
+    z-index: 99999999;
+    background-repeat: no-repeat;
+    background-position:right;
+    border-radius: 4px;
+}
+.picture-container{
+    background-image: url(../img/tablet/order-ornament-bg-tablet.png);
+    fill: rgba(252, 249, 249, 0.10);
+    width: 323px;
+    height: 482px;
+}
+}
+/* TABLET ORDER STYLE /*/
+@media screen and (min-width: 1280px) {
+    .container {
+        max-width: 1113px;
+    }
+     .order-bg-img {
+        width: 1282px;
+        height: 776px;
+        margin-bottom: 150px;
+}
+/* .order-container{
+   justify-content: flex-end;
+} */
+
 }
