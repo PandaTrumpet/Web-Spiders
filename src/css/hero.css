@@ -1,8 +1,7 @@
 .hero {
-    height: 865px;
     margin-right: auto;
     margin-left: auto;
-    padding-top: 32px;
+    padding-top: 30px;
     padding-bottom: 40px;
 }
 
@@ -62,8 +61,7 @@
 
 @media screen and (min-width: 767px) {
     .hero {
-        height: 865px;
-        padding-top: 42px;
+        padding-top: 53px;
         padding-bottom: 50px;
     }
 
@@ -79,14 +77,13 @@
     }
 
     .icon-star-container {
+        position: absolute;
         display: flex;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
-        position: absolute;
-        top: 26px;
-        right: 0px;
-        transform: translate(-50%, -50%);
+        justify-content: center;
+        top: -25px;
+        right: 16px;
     }
 
     .icon-star {
@@ -104,6 +101,10 @@
         color: rgba(252, 249, 249, 0.40);
     }
 
+    .order-link-container {
+        margin-left: 141px;
+    }
+
     .pictures-container {
         display: flex;
         align-items: flex-end;
@@ -112,6 +113,46 @@
 
     .hero-ukraine-img {
         display: block;
-        border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+        border-top-left-radius: 100px 150px;
+        border-top-right-radius: 100px 150px;
     }
+}
+
+@media screen and (min-width: 1240px) {
+    .hero {
+        padding-top: 53px;
+        padding-bottom: 75px;
+    }
+
+    .flex-hero-container {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        column-gap: 40px;
+    }
+
+    .main-title-link-container {
+        padding-top: 94px;
+    }
+
+
+    .main-title {
+        max-width: 518px;
+        margin-bottom: 40px;
+    }
+
+    .order-link-container {
+        margin-bottom: 0;
+    }
+
+    .icon-star-container {
+        top: 14px;
+    }
+
+    .hero-ukraine-img {
+        position: absolute;
+        bottom: 0;
+        right: 16px;
+    }
+  
 }
