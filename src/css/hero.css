@@ -101,6 +101,11 @@
 
     .order-link-container {
         margin-left: 141px;
+        width: 168px;
+    }
+
+    .order-link {
+        height: 50px;
     }
 
     .pictures-container {
