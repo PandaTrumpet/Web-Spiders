@@ -8,7 +8,7 @@
     padding-bottom: 80px;
     background-image: url(../img/mobile/collection-bg-mobile.png);
     background-repeat: no-repeat;
-    background-position: 0% 13%;
+    background-position: 0% 10.5%;
    }
 
    
@@ -72,7 +72,7 @@
     padding-bottom: 100px;
     background-image: url(../img/tablet/collection-bg-tablet.png);
     background-repeat: no-repeat;
-    background-position: -0.14% 21.5%;
+    background-position: -0.14% 16%;
     }
 
     .title-collection {
@@ -120,7 +120,7 @@
     padding-bottom: 150px;
     background-image: url(../img/desktop/collection-bg-desktop.png);
     background-repeat: no-repeat;
-    background-position: -0.14% 33.5%;
+    background-position: -0.14% 23%;
 }
 
 .collection-list {
