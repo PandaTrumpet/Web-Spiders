@@ -6,6 +6,7 @@
    } 
    .section-collection {
     padding-bottom: 80px;
+    padding-top: 18px;
     background-image: url(../img/mobile/collection-bg-mobile.png);
     background-repeat: no-repeat;
     background-position: 0% 10.5%;
@@ -70,6 +71,7 @@
 
     .section-collection {
     padding-bottom: 100px;
+    padding-top: 50px;
     background-image: url(../img/tablet/collection-bg-tablet.png);
     background-repeat: no-repeat;
     background-position: -0.14% 16%;
@@ -118,6 +120,7 @@
     
 .section-collection {
     padding-bottom: 150px;
+    padding-top: 70px;
     background-image: url(../img/desktop/collection-bg-desktop.png);
     background-repeat: no-repeat;
     background-position: -0.14% 23%;
