@@ -25,7 +25,6 @@
 
 .order-link-container {
     width: 154.5px;
-    height: 49px;
     margin-bottom: 40px;
     margin-left: 70px;
     border-radius: 15px;
@@ -42,7 +41,7 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
-    padding: 14px 36px;
+    height: 49px;
     font-size: 14px;
     font-weight: 600;
     line-height: normal;
@@ -82,7 +81,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        top: -25px;
+        top: -26px;
         right: 16px;
     }
 
@@ -92,7 +91,6 @@
 
     .icon-star-text {
         width: 115px;
-        font-family: Manrope;
         text-align: center;
         font-size: 16px;
         font-weight: 400;
@@ -127,7 +125,7 @@
     .flex-hero-container {
         display: flex;
         flex-direction: row-reverse;
-        justify-content: center;
+        justify-content: flex-end;
         column-gap: 40px;
     }
 
