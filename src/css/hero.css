@@ -101,6 +101,11 @@
 
     .order-link-container {
         margin-left: 141px;
+        width: 168px;
+    }
+
+    .order-link {
+        height: 50px;
     }
 
     .pictures-container {
@@ -116,7 +121,7 @@
     }
 }
 
-@media screen and (min-width: 1240px) {
+@media screen and (min-width: 1280px) {
     .hero {
         padding-top: 53px;
         padding-bottom: 75px;
