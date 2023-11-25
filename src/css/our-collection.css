@@ -6,6 +6,9 @@
    .section-collection {
     padding-top: 80px;
     padding-bottom: 80px;
+    background-image: url(../img/mobile/collection-bg-mobile.png);
+    background-repeat: no-repeat;
+    background-position: 0% 13%;
    }
 
    
@@ -60,6 +63,9 @@
     .section-collection {
     padding-top: 100px;
     padding-bottom: 100px;
+    background-image: url(../img/tablet/collection-bg-tablet.png);
+    background-repeat: no-repeat;
+    background-position: -0.14% 21.5%;
     }
 
     .title-collection {
@@ -103,6 +109,9 @@
 .section-collection {
     padding-top: 150px;
     padding-bottom: 150px;
+    background-image: url(../img/desktop/collection-bg-desktop.png);
+    background-repeat: no-repeat;
+    background-position: -0.14% 33.5%;
 }
 
 .container-collection {
