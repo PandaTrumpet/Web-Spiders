@@ -1,5 +1,5 @@
 /* MOBILE ORDER STYLE */
-.picture-order{
+.picture-vyshivanka{
     display: none;
 }
 .order-bg-img{
@@ -12,6 +12,7 @@
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 80px;
+    margin-top: 50px;
 }
 .order-title{
     max-width: 335px;
@@ -79,6 +80,9 @@ color: rgba(252, 249, 249, 0.50);
 .order-send-icon{
     line-height: 0;
 }
+.picture{
+    background-image: url(../img/mobile/order-bg-mobile.jpg);
+}
 /* MOBILE ORDER STYLE /*/
 
 /* TABLET ORDER STYLE */
@@ -86,6 +90,18 @@ color: rgba(252, 249, 249, 0.50);
     .container {
         max-width: 736px;
     }
+    .order{
+        background-image: url(../img/tablet/order-ornament-bg-tablet.png);
+        background-position:bottom left;
+        background-repeat: no-repeat;
+        background-size: 322px 481px;
+    }
+ @media(min-resolution: 192dpi), (min-resolution: 2dppx) {
+.order {
+ background-image: url(../img/tablet/order-ornament-bg-tablet@2x.png); 
+ background-size: 322px 481px;
+}
+ }
     .order-bg-img{
         width: 768px;
         height: 776px;
@@ -112,26 +128,15 @@ margin-right: 0;
 margin-left: 0;
 margin-bottom: 100px;
 }
-.picture-order{
-    display: block;
-}
-.picture-vyshivanka{
-    display: block;
-    position: absolute;
-    right: 3%;
-    height: 521px;
-    z-index: 99999999;
-    background-repeat: no-repeat;
-    background-position:right;
-    border-radius: 4px;
-}
-.picture-container{
-    background-image: url(../img/tablet/order-ornament-bg-tablet.png);
-    fill: rgba(252, 249, 249, 0.10);
-    width: 323px;
-    height: 482px;
-}
-}
+ .picture-vyshivanka {
+     display: block;
+     width:638px;
+     height: 615px;
+     border-radius: 4px;
+     margin-left: 98px;
+     padding-bottom: 94px;
+ }
+ }
 /* TABLET ORDER STYLE /*/
 @media screen and (min-width: 1280px) {
     .container {
@@ -142,8 +147,24 @@ margin-bottom: 100px;
         height: 776px;
         margin-bottom: 150px;
 }
-/* .order-container{
-   justify-content: flex-end;
-} */
 
+.picture-vyshivanka{
+display: flex;
+flex-direction: row;
+}
+
+.order-container{
+
+}
+.container-desktop{
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+    gap: unset;
+}
+.picture-vyshivanka{
+    position: re;
+    bottom: 119px;
+}
 }
