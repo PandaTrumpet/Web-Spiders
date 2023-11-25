@@ -13,29 +13,33 @@
                 <div>
                     
                     <picture> 
-                      <source
-                      media="(max-width: 767px)"
-                      srcset="./img/mobile/about-mobile.jpg 1x, ./img/mobile/about-mobile@2x.jpg 2x"
+                        <!-- desktop 1440px screen -->
+                        <source 
+                        media="(min-width: 1440px)"
+                        srcset="../img/desktop1440/about-desktop1440.jpg 1x, ../img/desktop1440/about-desktop1440@2x.jpg 2x"
+                        type="image/jpg" />
+
+                        <!-- desktop 1280px screen -->
+                        <source 
+                      media="(min-width: 1280px)"
+                      srcset="../img/desktop/about-desktop.jpg 1x, ../img/desktop/about-desktop@2x.jpg 2x"
                       type="image/jpg" />
-           
+
+                       <!-- tablet screen -->
                       <source
                       media="(min-width: 768px)"
-                      srcset="./img/tablet/about-tablet.jpg 1x, ./img/tablet/about-tablet@2x.jpg 2x"
+                      srcset="../img/tablet/about-tablet.jpg 1x, ../img/tablet/about-tablet@2x.jpg 2x"
+                      type="image/jpg" />
+
+                      <!-- mobile screen -->
+                      <source
+                      media="(max-width: 767px)"
+                      srcset="../img/mobile/about-mobile.jpg 1x, ../img/mobile/about-mobile@2x.jpg 2x"
                       type="image/jpg" />
            
-                      <source 
-                      media="(min-width: 1280px)"
-                      srcset="./img/desktop/about-desktop.jpg 1x, ./img/desktop/about-desktop@2x.jpg 2x"
-                      type="image/jpg" />
-           
-                       <source 
-                       media="(min-width: 1440px)"
-                       srcset="./img/desktop1440/about-desktop1440.jpg 1x, ./img/desktop1440/about-desktop1440@2x.jpg 2x"
-                       type="image/jpg" />
-              
                    <img
                       class="about-us-vyshyvanka" 
-                      src="./img/mobile/about-mobile.jpg"
+                      src="../img/mobile/about-mobile.jpg"
                       alt="example of vyshyvanka with ornament"
                       loading="lazy" />
                   </picture>

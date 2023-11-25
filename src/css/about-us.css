@@ -64,6 +64,7 @@
         .about-us-wrapper {
             background-image: url(../img/tablet/about-bg-tablet@2x.png);
             background-position: right bottom;
+            background-size: 545px 484px;
         }
     }
 }
