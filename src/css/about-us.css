@@ -6,6 +6,7 @@
     font-weight: 500;
     line-height: 1.375;
     letter-spacing: -0.03em;
+    margin-bottom: 40px;
 }
 .about-us-text-1 {
     color: rgba(252, 249, 249, 0.40);
@@ -14,6 +15,7 @@
     letter-spacing: -0.04em;
     display: block;
     margin-bottom: 20px;
+    width: 335px;
 }
 .about-us-text-2 {
     color: rgba(252, 249, 249, 0.40);
@@ -22,6 +24,7 @@
     letter-spacing: -0.04em;
     display: block;
     margin-bottom: 50px;
+    width: 335px;
 }
 
 .about-us-wrapper {
@@ -35,6 +38,7 @@
     .about-us-wrapper {
         background-image: url(../img/mobile/about-bg-mobile@2x.png);
         background-position: right bottom;
+        background-size: 230px 408px;
     }
 }
 /* / ========= mobile styles ========= */
@@ -48,10 +52,13 @@
     .about-us-text-1 {
     font-size: 16px;
     letter-spacing: -0.04em;
+    width: 704px;
     }
     .about-us-text-2 {
     font-size: 16px;
     letter-spacing: -0.04em;
+    margin-bottom: 40px;
+    width: 704px;
     }
     .about-us-wrapper {
         padding-top: 50px;
@@ -64,6 +71,7 @@
         .about-us-wrapper {
             background-image: url(../img/tablet/about-bg-tablet@2x.png);
             background-position: right bottom;
+            background-size: 545px 484px;
         }
     }
 }
@@ -87,9 +95,12 @@
     }
     .about-us-text-2 {
         width: 436px;
+        margin-bottom: 0;
     }
     .section-about-us-wrapper {
         display: flex;
+        gap: 50px;
+        align-items: center;
     }
 
 }
@@ -105,4 +116,3 @@
     }
 }
 /* / ========= desktop 1440px styles ========= */
-
