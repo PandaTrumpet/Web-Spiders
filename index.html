@@ -20,7 +20,7 @@
     
     <title>Vyshyvanka Vibes</title>
     <script type="module" crossorigin src="/Web-Spiders/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/Web-Spiders/assets/index-c93652f7.css">
+    <link rel="stylesheet" href="/Web-Spiders/assets/index-e6c0f6fc.css">
   </head>
   <body>
     
@@ -49,10 +49,80 @@
       <p class="icon-star-text">all embroidery is made by hand</p>
     </div>
     <div class="pictures-container">
-      <img
+      <picture>
+        <!-- Dekstop screen -->
+        <source
+          media="(min-width: 1280px)"
+          srcset="../img/desktop/hero.jpg 1x, ../img/desktop/hero@2x.jpg 2x"
+          type="image/jpg"
+        />
+        <!-- Tablet screen -->
+        <source
+          media="(min-width: 768px)"
+          srcset="
+            ../img/tablet/hero-tablet.jpg    1x,
+            ../img/tablet/hero-tablet@2x.jpg 2x
+          "
+          type="image/jpg"
+        />
+        <!-- Mobile screen -->
+        <source
+          media="(max-width: 767px)"
+          srcset="
+            ../img/mobile/hero-mobile.jpg    1x,
+            ../img/mobile/hero-mobile@2x.jpg 2x
+          "
+          type="image/jpg"
+        />
+        <img
+          class="hero-img"
+          src="../img/desktop/hero.jpg"
+          alt="Girl in ukrainian shirt"
+          width="392"
+          height="545"
+          loading="lazy"
+        />
+      </picture>
+      <picture>
+        <!-- Dekstop screen -->
+        <source
+          media="(min-width: 1280px)"
+          srcset="
+            ../img/desktop/hero-content-desktop.jpg    1x,
+            ../img/desktop/hero-content-desktop@2x.jpg 2x
+          "
+          type="image/jpg"
+        />
+        <!-- Tablet screen -->
+        <source
+          media="(min-width: 768px)"
+          srcset="
+            ../img/tablet/hero-ukraine.jpg    1x,
+            ../img/tablet/hero-ukraine@2x.jpg 2x
+          "
+          type="image/jpg"
+        />
+        <img
+          class="hero-ukraine-img"
+          src="../img/desktop/hero-content-desktop.jpg"
+          alt="Zoom of ukrainian shirt"
+          width="142"
+          height="156"
+          loading="lazy"
+        />
+      </picture>
+      <!--
+        <img
         class="hero-img"
-        src="/Web-Spiders/assets/hero-mobile-ffd36847.jpg"
-        srcset="/Web-Spiders/assets/hero-mobile-ffd36847.jpg 335w, /Web-Spiders/assets/hero-mobile@2x-b35edc5e.jpg 670w, /Web-Spiders/assets/hero-tablet-4dfd028a.jpg 413w, /Web-Spiders/assets/hero-tablet@2x-1b13097b.jpg 826w, /Web-Spiders/assets/hero-6d0e7b74.jpg 392w, /Web-Spiders/assets/hero@2x-38b62734.jpg 784w"
+        src="./img/mobile/hero-mobile.jpg"
+        srcset="
+          ./img/mobile/hero-mobile.jpg    335w,
+          ./img/mobile/hero-mobile@2x.jpg 670w,
+          ./img/tablet/hero-tablet.jpg    413w,
+          ./img/tablet/hero-tablet@2x.jpg 826w,
+          ./img/desktop/hero.jpg          392w,
+          ./img/desktop/hero@2x.jpg       784w
+        "
         sizes="(min-width: 1280px) 392px, (min-width: 768px) 413px, (max-width: 767px) 335px"
         alt="Girl in ukrainian shirt"
       />
@@ -68,6 +138,7 @@
         sizes="(min-width: 1280px) 142px, (min-width: 768px) 157px"
         alt="Zoom of ukrainian shirt"
       />
+      -->
     </div>
   </div>
 </section>
