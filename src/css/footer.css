@@ -45,7 +45,7 @@
   screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
   .page-footer {
     background-image: url(../img/mobile/footer-bg-mobile@2x.png);
-    background-size: 374px 214px;
+    background-size: 375px 212px;
   }
 }
 
