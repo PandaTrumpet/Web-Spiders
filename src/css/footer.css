@@ -6,8 +6,7 @@
   background-position: center bottom;
   padding-bottom: 292px;
 }
-.footer-container {
-}
+
 
 .footer-menu-link {
   color: #fcf9f9;
@@ -46,6 +45,7 @@
   screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
   .page-footer {
     background-image: url(../img/mobile/footer-bg-mobile@2x.png);
+    background-size: 374px 214px;
   }
 }
 
@@ -78,6 +78,15 @@
     padding-bottom: 40px;
   }
 }
+@media screen and (min-width: 768px) and (min-resolution: 192dpi),
+  screen and (min-resolution: 2dppx) and (min-width: 768px),
+  screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
+  .page-footer {
+    background-image: url(../img/tablet/footer-bg-tablet@2x.png);
+    background-size: 174px 370px;
+    
+  }
+}
 
 @media screen and (min-width: 1280px) {
   .container {
@@ -95,5 +104,16 @@
     width: 754px;
     font-size: 64px;
     line-height: 1.15;
+  }
+}
+
+
+@media screen and (min-width: 1280px) and (min-resolution: 192dpi),
+  screen and (min-resolution: 2dppx) and (min-width: 1280px),
+  screen and (min-device-pixel-ratio: 2) and (min-width: 1280px) {
+  .page-footer {
+    background-image: url(../img/desktop/footer-bg-desktop@2x.png);
+    background-size: 338px 363px;
+    
   }
 }
