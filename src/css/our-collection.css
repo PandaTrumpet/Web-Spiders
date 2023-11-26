@@ -149,6 +149,10 @@ justify-content: center;
     text-align: left;
     color: rgba(252, 249, 249, 1);
     }
+    .collection-item {
+        width: 347px;
+        height: 430px;
+    }
  }
  
  @media screen and (min-resolution: 192dpi) and (min-width: 1280px),
