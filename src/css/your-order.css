@@ -1,4 +1,5 @@
 /* MOBILE ORDER STYLE */
+
 .picture-vyshivanka{
     display: none;
 }
@@ -131,7 +132,7 @@ margin-bottom: 100px;
 }
  .picture-vyshivanka {
      display: block;
-     width:638px;
+    width: 638px;
      height: 615px;
      border-radius: 4px;
      margin-left: 98px;
