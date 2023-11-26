@@ -8,7 +8,10 @@
     background-size: 69px;
    }
 
-   
+   .collection-item {
+    width: 335px;
+    height: 400px;
+    }
   .title-collection {
       margin: 0 auto;
       width: 198px;
@@ -73,7 +76,10 @@
     background-position: -0.14% 18.5%;
     background-size: 115px;
     }
-
+    .collection-item {
+        width: 342px;
+        height: 430px;
+        }
     .title-collection {
     width: 272px;
     margin-bottom: 40px;
@@ -132,7 +138,10 @@ gap: 20px;
 row-gap: 40px;
 justify-content: center;
 }
-
+.collection-item  {
+    width: 347px;
+    height: 430px;
+}
     .collection-li {
     max-width: 347px;
     flex-basis: calc((100% - 20px) / 2);
