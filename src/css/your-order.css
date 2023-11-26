@@ -1,18 +1,21 @@
 /* MOBILE ORDER STYLE */
-
+.order{
+padding-top: 630px;
+padding-bottom: 40px;
+background-image: url(../img/mobile/order-bg-mobile.jpg);
+background-repeat: no-repeat;
+background-position: top;
+background-size: 375px;
+}
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx){
+    .order{
+        background-image: url(../img/mobile/order-bg-mobile@2x.jpg);
+        }
+    }
 .picture-vyshivanka{
     display: none;
-}
-.order-bg-img{
-    min-width: 375px;
-    height: 550px;
-    margin-bottom: 80px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 80px;
 }
 .order-title{
     max-width: 335px;
@@ -31,7 +34,7 @@ color:#ECD979;
     display: flex;
     flex-direction: column;
     gap: 40px;
-    padding: 0 20px;
+    padding:20px;
 }
 .order-form{
     display: flex;
@@ -80,35 +83,28 @@ color: rgba(252, 249, 249, 0.50);
 .order-send-icon{
     line-height: 0;
 }
-.picture{
-    background-image: url(../img/mobile/order-bg-mobile.jpg);
-}
 /* MOBILE ORDER STYLE /*/
 
 /* TABLET ORDER STYLE */
 @media screen and (min-width: 768px) {
     .container {
-        max-width: 736px;
+        max-width: 768px;
     }
     .order{
-        background-image: url(../img/tablet/order-ornament-bg-tablet.png);
-        background-position:bottom left;
-        background-repeat: no-repeat;
-        background-size: 322px 481px;
-        position: relative;
-
+    padding-top: 876px;
+    padding-bottom: 50px;
+    background-image:url(../img/tablet/order-bg-tablet.png), url(../img/tablet/order-ornament-bg-tablet.png);
+    background-position: top, left bottom;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 788px,269px;
     }
- @media(min-resolution: 192dpi), (min-resolution: 2dppx) {
+ @media (min-device-pixel-ratio: 2),
+ (min-resolution: 192dpi),
+ (min-resolution: 2dppx) {
 .order {
- background-image: url(../img/tablet/order-ornament-bg-tablet@2x.png); 
- background-size: 322px 481px;
+ background-image: url(../img/tablet/order-bg-tablet@2x.png) ,url(../img/tablet/order-ornament-bg-tablet@2x.png); 
 }
  }
-    .order-bg-img{
-        width: 768px;
-        height: 776px;
-        margin-bottom: 100px;
-    }
 .order-title {
 max-width: 542px;
 font-size: 44px;
@@ -131,28 +127,39 @@ margin-left: 0;
 margin-bottom: 100px;
 }
  .picture-vyshivanka {
-     display: block;
+    display: block;
     width: 638px;
-     height: 615px;
-     border-radius: 4px;
-     margin-left: 98px;
-     padding-bottom: 94px;
+    height: 571px;
+    border-radius: 4px;
+    margin-left: 98px;
+    padding-bottom: 50px;
  }
  }
 /* TABLET ORDER STYLE /*/
+/* DESKTOP ORDER STYLE */
 @media screen and (min-width: 1280px) {
     .container {
         max-width: 1113px;
     }
-     .order-bg-img {
-        width: 1282px;
-        height: 776px;
-        margin-bottom: 150px;
-}
+  .order {
+background-image: url(../img/desktop/order-bg-desktop.png), url(../img/desktop/collection-ornament-bg-desktop.png);
+background-size: 1282px, 250px 484px;
+        }
+@media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .order{
+            background-image:url(../img/desktop/order-bg-desktop@2x.png), url(../img/desktop/collection-ornament-bg-desktop@2x.png)
+        }
+    }
+
 .picture-vyshivanka{
 display: flex;
 flex-direction: row;
 padding-right: 50px;
+padding-bottom: 0;
+width: 574px;
+height: 521px;
 }
 .container-desktop{
     display:flex;
@@ -161,8 +168,8 @@ padding-right: 50px;
     flex-wrap: nowrap;
     gap: unset;
 }
-.order-container{
-    padding-left:  0;
+.order-container {
+    padding-left: 0;
 }
 .send-btn{
     margin-bottom: 0;
