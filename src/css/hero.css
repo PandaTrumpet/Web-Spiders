@@ -1,7 +1,7 @@
 .hero {
     margin-right: auto;
     margin-left: auto;
-    padding-top: 30px;
+    padding-top: 60px;
     padding-bottom: 40px;
 }
 
@@ -60,7 +60,7 @@
 
 @media screen and (min-width: 767px) {
     .hero {
-        padding-top: 53px;
+        padding-top: 106px;
         padding-bottom: 50px;
     }
 
@@ -114,16 +114,23 @@
         justify-content: space-between;
     }
 
+    .hero-img {
+        width: 413px;
+        height: 575px;
+    }
+
     .hero-ukraine-img {
         display: block;
         border-top-left-radius: 100px 150px;
         border-top-right-radius: 100px 150px;
+        width: 142px;
+        height: 99px;
     }
 }
 
 @media screen and (min-width: 1280px) {
     .hero {
-        padding-top: 53px;
+        padding-top: 106px;
         padding-bottom: 75px;
     }
 
@@ -136,6 +143,7 @@
 
     .main-title-link-container {
         padding-top: 94px;
+        padding-bottom: 169px;
     }
 
 
@@ -150,6 +158,11 @@
 
     .icon-star-container {
         top: 14px;
+    }
+
+    .hero-img {
+        width: 392px;
+        height: 545px;
     }
 
     .hero-ukraine-img {
