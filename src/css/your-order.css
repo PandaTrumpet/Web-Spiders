@@ -12,7 +12,6 @@
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 80px;
-    margin-top: 50px;
 }
 .order-title{
     max-width: 335px;
@@ -95,6 +94,8 @@ color: rgba(252, 249, 249, 0.50);
         background-position:bottom left;
         background-repeat: no-repeat;
         background-size: 322px 481px;
+        position: relative;
+
     }
  @media(min-resolution: 192dpi), (min-resolution: 2dppx) {
 .order {
@@ -147,14 +148,10 @@ margin-bottom: 100px;
         height: 776px;
         margin-bottom: 150px;
 }
-
 .picture-vyshivanka{
 display: flex;
 flex-direction: row;
-}
-
-.order-container{
-
+padding-right: 50px;
 }
 .container-desktop{
     display:flex;
@@ -163,8 +160,10 @@ flex-direction: row;
     flex-wrap: nowrap;
     gap: unset;
 }
-.picture-vyshivanka{
-    position: re;
-    bottom: 119px;
+.order-container{
+    padding-left:  0;
+}
+.send-btn{
+    margin-bottom: 0;
 }
 }
