@@ -86,6 +86,7 @@
     }
     @media screen and (min-resolution: 192dpi) {
         .about-us-wrapper {
+            padding-top: 75px;
             background-image: url(../img/desktop/about-bg-desktop@2x.png);
             background-position: right bottom;
         }
