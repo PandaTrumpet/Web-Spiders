@@ -1,9 +1,12 @@
 .main-page{
-    padding-top: 20px;
-    padding-bottom: 30px;
-    
+padding-top: 20px;
+background-color: #1C2225;
+ position: sticky;  
+top: 0;  
+z-index: 100;  
     }
-    .main-cont{
+
+        .main-cont{
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -79,7 +82,7 @@
     .menu-address-list-item{
         display: none;
     }
-    
+
     /* =============================Modal=============================== */
     .mobile-menu {
         position: fixed;
@@ -87,7 +90,7 @@
         left: 0;
         width:100%;
         height: 100%;
-        background: #ECD979;
+        background-color:rgba(28, 34, 37, 0.9) ;
         z-index: 99999999999;
         transform: translateX(100%);
         transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -100,8 +103,8 @@
          width: 274px;
          height: 100%;
         margin-left: auto;
-        margin-right: auto;
         padding:20px;
+        background: #ECD979;
         background-image:
         url(../img/mobile/menu-bg-mobile.png);
         background-position: 40% 100%;
@@ -169,11 +172,7 @@
     background-size: 100%;
   }
 }
-    
     @media screen and (min-width: 768px) {
-        .main-page{
-        padding-bottom: 53px;
-        }
         .social-page{
             column-gap: 20px;
      }
@@ -203,10 +202,6 @@
         }
         }
         @media screen and (min-width: 1280px) {
-            .main-page{
-                padding-bottom: 50px;
-                
-            }
             .mobile-menu{
                 display: none;
             }
