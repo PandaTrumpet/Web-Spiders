@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 .section-collection {
   padding-bottom: 80px;
   padding-top: 18px;
@@ -5,6 +6,24 @@
   background-repeat: no-repeat;
   background-position: 0% 10.5%;
 }
+=======
+   
+   @media screen and (max-width: 767px) and (min-resolution: 192dpi), 
+   screen and (min-resolution: 2dppx) and (max-width: 767px), 
+   screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
+    .section-collection {
+       background-image: url(../img/mobile/collection-bg-mobile@2x.png);
+    }
+   } 
+
+   .section-collection {
+    padding-bottom: 80px;
+    padding-top: 18px;
+    background-image: url(../img/mobile/collection-bg-mobile.png);
+    background-repeat: no-repeat;
+    background-position: 0% 10.5%;
+   }
+>>>>>>> Stashed changes
 
 .title-collection {
   margin: 0 auto;
