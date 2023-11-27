@@ -5,6 +5,9 @@
   background-repeat: no-repeat;
   background-position: center bottom;
   padding-bottom: 292px;
+
+
+  
 }
 
 
@@ -78,8 +81,10 @@
     background-image: url('../img/tablet/footer-bg-tablet.png');
     background-position: right bottom;
     background-repeat: no-repeat;
+    
     padding-top: 40px;
     padding-bottom: 40px;
+     
   }
 }
 
