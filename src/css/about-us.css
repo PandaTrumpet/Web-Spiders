@@ -62,7 +62,7 @@
     }
     .about-us-wrapper {
         padding-top: 50px;
-        padding-bottom: 100px;
+        padding-bottom: 50px;
         background-image: url(../img/tablet/about-bg-tablet.png);
         background-position: right bottom;
 
@@ -82,6 +82,7 @@
     .about-us-wrapper {
         background-image: url(../img/desktop/about-bg-desktop.png);
         background-position: right bottom;
+        padding-bottom: 80px;
 
     }
     @media screen and (min-resolution: 192dpi) {
