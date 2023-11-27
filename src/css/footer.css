@@ -13,6 +13,9 @@
   font-size: 14px;
   line-height: 1.29;
   text-transform: uppercase;
+  transition: color 350ms ease-in-out;
+}.footer-menu-link:hover {
+  color: #ECD979;
 }
 
 .footer-title {
@@ -79,6 +82,8 @@
     padding-bottom: 40px;
   }
 }
+
+
 @media screen and (min-width: 768px) and (min-resolution: 192dpi),
   screen and (min-resolution: 2dppx) and (min-width: 768px),
   screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
