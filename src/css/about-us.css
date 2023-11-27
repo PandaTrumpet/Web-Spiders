@@ -33,6 +33,7 @@
     background-image: url(../img/mobile/about-bg-mobile.png);
     background-position: right bottom;
     background-repeat: no-repeat;
+    max-width: 1440px;
 }
 @media screen and (min-resolution: 192dpi) {
     .about-us-wrapper {

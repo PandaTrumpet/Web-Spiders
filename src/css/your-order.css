@@ -6,6 +6,7 @@ background-image: url(../img/mobile/order-bg-mobile.jpg);
 background-repeat: no-repeat;
 background-position: top;
 background-size: 375px;
+max-width: 1440px;
 }
 @media (min-device-pixel-ratio: 2),
 (min-resolution: 192dpi),
