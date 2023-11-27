@@ -71,7 +71,7 @@
         .about-us-wrapper {
             background-image: url(../img/tablet/about-bg-tablet@2x.png);
             background-position: right bottom;
-            background-size: 545px 484px;
+            background-size: 370px 430px;
         }
     }
 }
@@ -92,6 +92,7 @@
             
             background-image: url(../img/desktop/about-bg-desktop@2x.png);
             background-position: right bottom;
+            background-size: 385px 485px;
         }
     }
     .about-us-text-1 {
