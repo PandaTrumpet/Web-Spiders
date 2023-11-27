@@ -1,5 +1,5 @@
 .testimonials {
-    padding: 80px 20px;
+    padding: 40px 20px 80px 20px;
 }
 .testimonials-title {
     font-weight: 500;
@@ -43,8 +43,10 @@ position: relative;
 .testimonials-text {
     color: rgba(252, 249, 249, 0.4);
     font-size: 14px;
-    line-height: 1.4
+    line-height: normal;
 }
+
+
 @media screen and (min-width:768px) {
     .testimonials {
         padding-top: 100px;
@@ -73,7 +75,7 @@ position: relative;
         min-width: 300px;
         font-weight: 400;
         font-size: 16px;
-        line-height: 1.4;
+    
     }
     .testimonials-thumb {
         top: -40%;

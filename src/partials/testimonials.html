@@ -1,5 +1,6 @@
 <section class="testimonials container">
-    <h1 class="testimonials-title">Testimonials</h1>
+    <div class="container">
+    <h2 class="testimonials-title">Testimonials</h2>
     <ul class="testimonials-list">
         <li class="testimonials-item">
             <div class="testimonials-container">
@@ -22,13 +23,15 @@
         </li>
         <li class="testimonials-item rybachok">
             <div class="testimonials-container">
-            <picture class="testimonials-thumb rybachok">
-                <source srscet="../img/desktop/testimonials-2-desktop.png 1x, ../img/desktop/testimonials-2-desktop@2x.png 2x"
-                    type="image/png" media="(min-width:1280px)">
-                <source srscet="../img/tablet/testimonials-2-tablet.png 1x, ../img/tablet/testimonials-2-tablet@2x.png 2x"
-                    type="image/png" media="(min-width:768px)">
-                <img src="../img/desktop/testimonials-2-desktop.png" width="64" height="64" alt="Man"/>
-            </picture>
+                <picture class="testimonials-thumb">
+                    <source media="(min-width:1280px)" srcset="./img/desktop/testimonials-2-desktop.png 1x, ./img/desktop/testimonials-2-desktop@2x.png 2x"
+                        type="image/png" >
+                    <source media="(min-width:768px)" srcset="./img/desktop/testimonials-2-desktop.png 1x, ./img/desktop/testimonials-2-desktop@2x.png 2x"
+                        type="image/png">
+                    <source media="(max-width:767px)" srcset="./img/mobile/testimonials-mobile.png 1x, ./img/mobile/testimonials-mobile@2x.png 2x"
+                        type="image/png">
+                    <img class="testimonials-img" src="../img/desktop/testimonials-2-desktop.png" width="64" height="64" alt="Woman" />
+                </picture>
             <h2 class="testimonials-name">Sergey Rybachok</h2>
             <p class="testimonials-text">Vyshyvanka Vibes exceeds all my expectations! Their vyshyvanka are simply
                 masterpieces! I fell in love with the quality
@@ -39,11 +42,15 @@
         </li>
         <li class="testimonials-item chatuk">
             <div class="testimonials-container">
-            <picture class="testimonials-thumb chatuk">
-            <source srscet="../img/mobile/testimonials-3-mobile.png 1x, ../img/mobile/testimonials-3-mobile@2x.png 2x"
-                type="image/png" media="(max-width:767px)">
-            <img src="../img/desktop/testimonials-3-desktop.png" width="64" height="64" alr="Woman"/>
-            </picture>
+                <picture class="testimonials-thumb">
+                    <source media="(min-width:1280px)" srcset="./img/desktop/testimonials-3-desktop.png 1x, ./img/desktop/testimonials-3-desktop@2x.png 2x"
+                        type="image/png" >
+                    <source media="(min-width:768px)" srcset="./img/desktop/testimonials-3-desktop.png 1x, ./img/desktop/testimonials-3-desktop@2x.png 2x"
+                        type="image/png">
+                    <source media="(max-width:767px)" srcset="./img/mobile/testimonials-mobile.png 1x, ./img/mobile/testimonials-mobile@2x.png 2x"
+                        type="image/png">
+                    <img class="testimonials-img" src="../img/desktop/testimonials-3-desktop.png" width="64" height="64" alt="Woman" />
+                </picture>
             <h2 class="testimonials-name">Natalia Chatuk</h2>
             <p class="testimonials-text">Vyshyvanka Vibes is a real find for everyone who appreciates Ukrainian culture.
                 Their embroidery reflects the spirit and
@@ -53,4 +60,5 @@
             </div>
         </li>
     </ul>
+</div>
 </section>
