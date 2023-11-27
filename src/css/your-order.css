@@ -101,7 +101,7 @@ border:1px solid #ECD979;
     }
     .order{
     padding-top: 876px;
-    padding-bottom: 50px;
+    padding-bottom: 79px;
     background-image:url(../img/tablet/order-bg-tablet.png), url(../img/tablet/order-ornament-bg-tablet.png);
     background-position: top, left bottom;
     background-repeat: no-repeat, no-repeat;
@@ -143,7 +143,7 @@ margin-bottom: 100px;
     height: 571px;
     border-radius: 4px;
     /* margin-left: 98px; */
-    padding-bottom: 50px;
+    /* padding-bottom: 50px; */
  }
  .order-container {
     display: flex;
@@ -160,6 +160,7 @@ margin-bottom: 100px;
 background-image: url(../img/desktop/order-bg-desktop.png), url(../img/desktop/collection-ornament-bg-desktop.png);
 background-size: 1282px, 250px 484px;
 padding-top: 926px;
+padding-bottom: 0;
         }
 @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
@@ -172,7 +173,7 @@ padding-top: 926px;
 display: flex;
 flex-direction: row;
 padding-right: 50px;
-padding-bottom: 0;
+
 width: 574px;
 height: 521px;
 }
