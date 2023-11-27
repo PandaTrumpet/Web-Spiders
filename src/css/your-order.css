@@ -1,21 +1,18 @@
-/* MOBILE ORDER STYLE */
-.order{
-padding-top: 630px;
-padding-bottom: 40px;
-background-image: url(../img/mobile/order-bg-mobile.jpg);
-background-repeat: no-repeat;
-background-position: top;
-background-size: 375px;
-}
-@media (min-device-pixel-ratio: 2),
-(min-resolution: 192dpi),
-(min-resolution: 2dppx){
-    .order{
-        background-image: url(../img/mobile/order-bg-mobile@2x.jpg);
-        }
-    }
+
+
 .picture-vyshivanka{
     display: none;
+}
+.order-bg-img{
+    min-width: 375px;
+    height: 550px;
+    margin-bottom: 80px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
 }
 .order-title{
     max-width: 335px;
@@ -27,41 +24,51 @@ background-size: 375px;
     letter-spacing: -0.03em;
     color: #FCF9F9;
 }
-.order-words{
-color:#ECD979;
+
+.order-words {
+    color: #ECD979;
 }
-.order-container{
+
+.order-container {
     display: flex;
     flex-direction: column;
     gap: 40px;
-    /* padding:20px; */
 }
-.order-form{
+
+.order-form {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
-.text-form{
-height: 47px;
-width: 100%;
-padding: 14px 16px;
-border: 1px solid rgba(252, 249, 249, 0.10);
-border-radius: 8px;
-background-color: inherit;
-font-size: 14px;
-font-weight: 400;
-line-height: normal;
-letter-spacing: -0.02em;
-color: rgba(252, 249, 249, 0.50);
+
+.text-form {
+    height: 47px;
+    width: 100%;
+    padding: 14px 16px;
+    border: 1px solid rgba(252, 249, 249, 0.10);
+    border-radius: 8px;
+    background-color: inherit;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.02em;
+    color: rgba(252, 249, 249, 0.50);
+    outline-color: #1C2225;
 }
-.comments-form{
+.text-form:focus{
+    border-color:rgba(252, 249, 249, 0.60);
+    outline-color:transparent;
+    outline-offset: 4px;
+}
+
+.comments-form {
     height: 196px;
     width: 100%;
     resize: none;
 }
 .send-btn{
     display:inline-flex;
-    /* height: 49px; */
+    height: 49px;
     width: 145px;
     padding: 14px 36px;
     gap: 10px;
@@ -83,13 +90,14 @@ color: rgba(252, 249, 249, 0.50);
 }
 
 .send-btn:hover,
-.send-btn:focus{
-border: 1px solid #ECD979;
+.send-btn:focus {
+    border: 1px solid #ECD979;
+}
+.order-send-icon {
+    line-height: 0;
+    fill:#ECD979;
 }
 
-.order-send-icon{
-    line-height: 0;
-}
 /* MOBILE ORDER STYLE /*/
 
 /* TABLET ORDER STYLE */
@@ -97,97 +105,111 @@ border: 1px solid #ECD979;
     .container {
         max-width: 768px;
     }
-    .order{
-    padding-top: 876px;
-    padding-bottom: 50px;
-    background-image:url(../img/tablet/order-bg-tablet.png), url(../img/tablet/order-ornament-bg-tablet.png);
-    background-position: top, left bottom;
-    background-repeat: no-repeat, no-repeat;
-    background-size: 788px,269px;
+
+    .order {
+        padding-top: 876px;
+        padding-bottom: 50px;
+        background-image: url(../img/tablet/order-bg-tablet.png), url(../img/tablet/order-ornament-bg-tablet.png);
+        background-position: top, left bottom;
+        background-repeat: no-repeat, no-repeat;
+        background-size: 788px, 269px;
     }
- @media (min-device-pixel-ratio: 2),
- (min-resolution: 192dpi),
- (min-resolution: 2dppx) {
-.order {
- background-image: url(../img/tablet/order-bg-tablet@2x.png) ,url(../img/tablet/order-ornament-bg-tablet@2x.png); 
+
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .order {
+            background-image: url(../img/tablet/order-bg-tablet@2x.png), url(../img/tablet/order-ornament-bg-tablet@2x.png);
+        }
+    }
+
+    .order-title {
+        max-width: 542px;
+        font-size: 44px;
+        line-height: 1.318;
+        letter-spacing: -0.03em;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .text-form {
+        height: 50px;
+        width: 508px;
+    }
+
+    .comments-form {
+        height: 196px;
+        width: 508px;
+    }
+
+    .send-btn {
+        margin-right: 0;
+        margin-left: 0;
+        margin-bottom: 100px;
+        transition: border 300ms ease-in-out;
+    }
+
+    .send-btn:hover,
+    .send-btn:focus {
+        border: 1px solid #ECD979;
+    }
+
+    .picture-vyshivanka {
+        display: block;
+        width: 638px;
+        height: 571px;
+        border-radius: 4px;
+        /* margin-left: 98px; */
+        padding-bottom: 50px;
+    }
+
+    .order-container {
+        display: flex;
+        flex-direction: column;
+    }
 }
- }
-.order-title {
-max-width: 542px;
-font-size: 44px;
-line-height: 1.318;
-letter-spacing: -0.03em;
-margin-right: 0;
-margin-left: 0;
-}
-.text-form {
-    height: 50px;
-    width: 508px;
-}
-.comments-form {
-    height: 196px;
-     width: 508px;
-}
-.send-btn {
-margin-right: 0;
-margin-left: 0;
-margin-bottom: 100px;
-transition: border 300ms ease-in-out;
-}
-.send-btn:hover,
-.send-btn:focus{
-border: 1px solid #ECD979;
-}
- .picture-vyshivanka {
-    display: block;
-    width: 638px;
-    height: 571px;
-    border-radius: 4px;
-    /* margin-left: 98px; */
-    padding-bottom: 50px;
- }
- .order-container {
-    display: flex;
-    flex-direction: column;
- }
- }
+
 /* TABLET ORDER STYLE /*/
 /* DESKTOP ORDER STYLE */
 @media screen and (min-width: 1280px) {
     .container {
         max-width: 1113px;
     }
-  .order {
-background-image: url(../img/desktop/order-bg-desktop.png), url(../img/desktop/collection-ornament-bg-desktop.png);
-background-size: 1282px, 250px 484px;
-padding-top: 926px;
-        }
-@media (min-device-pixel-ratio: 2),
+
+    .order {
+        background-image: url(../img/desktop/order-bg-desktop.png), url(../img/desktop/collection-ornament-bg-desktop.png);
+        background-size: 1282px, 250px 484px;
+        padding-top: 926px;
+    }
+
+    @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
-        .order{
-            background-image:url(../img/desktop/order-bg-desktop@2x.png), url(../img/desktop/collection-ornament-bg-desktop@2x.png)
+        .order {
+            background-image: url(../img/desktop/order-bg-desktop@2x.png), url(../img/desktop/collection-ornament-bg-desktop@2x.png)
         }
     }
-.picture-vyshivanka{
-display: flex;
-flex-direction: row;
-padding-right: 50px;
-padding-bottom: 0;
-width: 576px;
-height: 521px;
-}
-.container-desktop{
-    display:flex;
-    flex-direction: row-reverse;
-    justify-content: flex-end;
-    flex-wrap: nowrap;
-    gap: unset;
-}
-.order-container {
-    padding-left: 0;
-}
-.send-btn{
-    margin-bottom: 0;
-}
+
+    .picture-vyshivanka {
+        display: flex;
+        flex-direction: row;
+        padding-right: 50px;
+        padding-bottom: 0;
+        width: 576px;
+        height: 521px;
+    }
+
+    .container-desktop {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+        flex-wrap: nowrap;
+        gap: unset;
+    }
+    .order-container {
+        padding-left: 0;
+    }
+    .send-btn {
+        margin-bottom: 0;
+    }
 }
