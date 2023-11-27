@@ -60,7 +60,8 @@
 .text-form:focus{
     border-color:rgba(252, 249, 249, 0.60);
     outline-color:transparent;
-    outline-offset: 4px;
+    /* outline-offset: 4px; */
+    color: #FCF9F9;
 }
 
 .comments-form {
