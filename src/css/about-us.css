@@ -80,6 +80,8 @@
 /* ========= desktop 1280px styles ========= */
 @media screen and (min-width: 1280px) {
     .about-us-wrapper {
+        padding-top: 75px;
+        padding-bottom: 80px;
         background-image: url(../img/desktop/about-bg-desktop.png);
         background-position: right bottom;
         padding-bottom: 80px;
@@ -87,6 +89,7 @@
     }
     @media screen and (min-resolution: 192dpi) {
         .about-us-wrapper {
+            
             background-image: url(../img/desktop/about-bg-desktop@2x.png);
             background-position: right bottom;
         }
