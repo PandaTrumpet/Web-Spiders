@@ -99,6 +99,10 @@ z-index: 100;
     .mobile-menu.is-open {
         transform: translateX(0%);
       }
+
+      .mobile-menu.is-close {
+        transform: translateX(100%);
+      }
       .mobile-menu-container {
          width: 274px;
          height: 100%;
