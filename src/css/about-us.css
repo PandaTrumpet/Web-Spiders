@@ -1,0 +1,122 @@
+
+/* ========= mobile styles ========= */
+.about-us-title {
+    color: #FCF9F9;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 1.375;
+    letter-spacing: -0.03em;
+    margin-bottom: 40px;
+}
+.about-us-text-1 {
+    color: rgba(252, 249, 249, 0.40);
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: -0.04em;
+    display: block;
+    margin-bottom: 20px;
+    width: 335px;
+}
+.about-us-text-2 {
+    color: rgba(252, 249, 249, 0.40);
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: -0.04em;
+    display: block;
+    margin-bottom: 50px;
+    width: 335px;
+}
+
+.about-us-wrapper {
+    padding-top: 40px;
+    padding-bottom: 62px;
+    background-image: url(../img/mobile/about-bg-mobile.png);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+}
+@media screen and (min-resolution: 192dpi) {
+    .about-us-wrapper {
+        background-image: url(../img/mobile/about-bg-mobile@2x.png);
+        background-position: right bottom;
+        background-size: 230px 408px;
+    }
+}
+/* / ========= mobile styles ========= */
+
+/* ========= tablet styles ========= */
+@media screen and (min-width: 768px) {
+    .about-us-title { 
+    font-size: 44px;
+    line-height: 1.45;
+    }
+    .about-us-text-1 {
+    font-size: 16px;
+    letter-spacing: -0.04em;
+    width: 704px;
+    }
+    .about-us-text-2 {
+    font-size: 16px;
+    letter-spacing: -0.04em;
+    margin-bottom: 40px;
+    width: 704px;
+    }
+    .about-us-wrapper {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        background-image: url(../img/tablet/about-bg-tablet.png);
+        background-position: right bottom;
+
+    }
+    @media screen and (min-resolution: 192dpi) {
+        .about-us-wrapper {
+            background-image: url(../img/tablet/about-bg-tablet@2x.png);
+            background-position: right bottom;
+            background-size: 545px 484px;
+        }
+    }
+}
+/* / ========= tablet styles ========= */
+
+/* ========= desktop 1280px styles ========= */
+@media screen and (min-width: 1280px) {
+    .about-us-wrapper {
+        padding-top: 75px;
+        padding-bottom: 80px;
+        background-image: url(../img/desktop/about-bg-desktop.png);
+        background-position: right bottom;
+        padding-bottom: 80px;
+
+    }
+    @media screen and (min-resolution: 192dpi) {
+        .about-us-wrapper {
+            
+            background-image: url(../img/desktop/about-bg-desktop@2x.png);
+            background-position: right bottom;
+        }
+    }
+    .about-us-text-1 {
+        width: 436px;
+    }
+    .about-us-text-2 {
+        width: 436px;
+        margin-bottom: 0;
+    }
+    .section-about-us-wrapper {
+        display: flex;
+        gap: 50px;
+        align-items: center;
+    }
+
+}
+/* / ========= desktop 1280px styles ========= */
+
+/* ========= desktop 1440px styles ========= */
+@media screen and (min-width: 1440px) {
+    .about-us-text-1 {
+        width: 481px;
+    }
+    .about-us-text-2 {
+        width: 481px;
+    }
+}
+/* / ========= desktop 1440px styles ========= */
