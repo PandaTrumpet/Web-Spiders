@@ -7,11 +7,15 @@
   padding-bottom: 292px;
 }
 
+
 .footer-menu-link {
   color: #fcf9f9;
   font-size: 14px;
   line-height: 1.29;
   text-transform: uppercase;
+  transition: color 350ms ease-in-out;
+}.footer-menu-link:hover {
+  color: #ECD979;
 }
 
 .footer-title {
@@ -45,6 +49,7 @@
   .page-footer {
     background-image: url(../img/mobile/footer-bg-mobile@2x.png);
     background-size: 375px 211px;
+
   }
 }
 
@@ -77,12 +82,15 @@
     padding-bottom: 40px;
   }
 }
+
+
 @media screen and (min-width: 768px) and (min-resolution: 192dpi),
   screen and (min-resolution: 2dppx) and (min-width: 768px),
   screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
   .page-footer {
     background-image: url(../img/tablet/footer-bg-tablet@2x.png);
     background-size: 174px 370px;
+
   }
 }
 
@@ -112,5 +120,8 @@
   .page-footer {
     background-image: url(../img/desktop/footer-bg-desktop@2x.png);
     background-size: 336px 363px;
+
+    
+
   }
 }
