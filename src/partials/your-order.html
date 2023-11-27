@@ -1,87 +1,44 @@
-
 <section class="order" id="your-oder">
-    <div class="container">
-<picture>
-   
-    <source media="(min-width: 1280px)"
-        srcset="./img/desktop/order-bg-desktop.png 1x, ./img/desktop/order-bg-desktop@2x.png 2x" type="image/png" />
-  
-    <source media="(min-width: 768px)"
-        srcset="../img/tablet/order-bg-tablet.png 1x, ../img/tablet/order-bg-tablet@2x.png 2x" type="image/png" />
-   
-    <source media="(max-width: 767px)"
-        srcset="./img/mobile/order-bg-mobile.jpg 1x, ./img/mobile/order-bg-mobile@2x.jpg 2x" type="image/jpg" />
-    <img class="order-bg-img" src="./img/mobile/order-bg-mobile.jpg" alt="Ukrainian girl" width="375" height="550"
-        loading="lazy" />
-</picture>
-
-<div class="container-desktop">
-
-<section class="order" id="your-order">
-<div class="container container-desktop">
-
-    <div class="order-container">
-<h2 class="order-title"> <span class="order-words">Your order</span> is our priority: Personalized approach and quality of service</h2>
-<form class="order-form">
-    <div class="order-form-container">
-    <label class="label-form" for="name"></label>
-
-    <input class="text-form" type="text" name="user_name" id="name" placeholder="Enter your full name" pattern="[a-z]">
+    <div class="container container-desktop">
+        <div class="order-container">
+            <h2 class="order-title"> <span class="order-words">Your order</span> is our priority: Personalized approach
+                and quality of service</h2>
+            <form class="order-form">
+                <div class="order-form-container">
+                    <label class="label-form" for="name"></label>
+                    <input class="text-form" type="text" name="user_name" id="name" placeholder="Enter your full name"
+                        pattern="[A-Za-z]+" required>
+                </div>
+                <div class="order-form-container">
+                    <label class="label-form" for="email"></label>
+                    <input class="text-form" type="email" name="user_email" id="email" placeholder="Enter your email"
+                        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+                </div>
+                <div class="order-form-container">
+                    <label class="label-form" for="comments"></label>
+                    <textarea class="comments-form text-form" name="user_comments" id="comments"
+                        placeholder="Comments" pattern="[a-zA-Z]+"></textarea>
+                </div>
+                <button class="send-btn" type="submit">Send
+                    <svg class="order-send-icon" width="26" height="10">
+                        <use href="./img/icon.svg#icon-untitled"></use>
+                    </svg>
+                </button>
+            </form>
+        </div>
+        <div class="picture-container">
+            <picture>
+                <!-- Dekstop screen -->
+                <source media="(min-width: 1280px)"
+                    srcset="./img/desktop/collection-content-desktop.jpg 1x, ./img/desktop//collection-content-desktop@2x.jpg 2x"
+                    type="image/jpg" />
+                <!-- Tablet screen -->
+                <source media="(min-width: 768px)"
+                    srcset="./img/tablet/order-content-tablet.jpg 1x, ./img/tablet/order-content-tablet@2x.jpg 2x"
+                    type="image/jpg" />
+                <img class="picture-vyshivanka" src="./img/tablet/order-content-tablet.jpg" alt="Vyshyvanka" width="638"
+                    height="521" loading="lazy" />
+            </picture>
+        </div>
     </div>
-    <div class="order-form-container">
-    <label class="label-form" for="email"></label>
-    <input class="text-form" type="email" name="user_email" id="email" placeholder="Enter your email">
-
-    <input class="text-form" type="text" name="user_name" id="name" placeholder="Enter your full name" pattern="[a-zA-Z]+" required>
-    </div>
-    <div class="order-form-container">
-    <label class="label-form" for="email"></label>
-    <input class="text-form" type="email" name="user_email" id="email" placeholder="Enter your email" pattern="" required>
-
-    </div>
-    <div class="order-form-container">
-    <label class="label-form" for="comments"></label>
-    <textarea class="comments-form text-form" name="user_comments" id="comments" placeholder="Comments"></textarea>
-    </div>
-    <button class="send-btn" type="submit">Send
-        <svg class="order-send-icon" width="26" height="10">
-
-            <use href="../img/icon.svg#icon-untitled"></use>
-
-            <use href="./img/icon.svg#icon-untitled"></use>
-
-        </svg>
-    </button>
-</form>
-</div>
-<div class="picture-container">
-    <picture>
-        
-        <source media="(min-width: 1280px)"
-
-            srcset="./img/desktop/collection-content-desktop.jpg 1x, ./img/desktop//collection-content-desktop@2x.jpg 2x"
-            type="image/jpg" />
-       
-        <source media="(min-width: 768px)"
-            srcset="./img/tablet/order-content-tablet.jpg 1x, ./img/tablet/order-content-tablet@2x.jpg 2x"
-            type="image/jpg" />
-        <img class="picture-vyshivanka" src="../img/tablet/order-content-tablet.jpg" alt="Vyshyvanka" width="638"
-
-            srcset="./img/desktop/collection-content-desktop.jpg 1x, ./img/desktop//collection-content-desktop@2x.jpg 2x"
-            type="image/jpg" />
-      
-        <source media="(min-width: 768px)"
-            srcset="./img/tablet/order-content-tablet.jpg 1x, ./img/tablet/order-content-tablet@2x.jpg 2x"
-            type="image/jpg" />
-        <img class="picture-vyshivanka" src="./img/tablet/order-content-tablet.jpg" alt="Vyshyvanka" width="638"
-
-            height="521" loading="lazy" />
-    </picture>
-    </div>
-    </div>
-
-</div>
 </section>
-
-</section>
-
