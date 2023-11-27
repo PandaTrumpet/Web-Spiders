@@ -20,10 +20,116 @@
     
     <title>Vyshyvanka Vibes</title>
     <script type="module" crossorigin src="/Web-Spiders/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/Web-Spiders/assets/index-82a88332.css">
+    <link rel="stylesheet" href="/Web-Spiders/assets/index-8ab85e70.css">
   </head>
   <body>
+    <header class="main-page "> 
+    <div class="main-cont container">
+    <nav class="page-nav">
+          <a class="logo" href="./index.html">
+                <img  src="../img/logo (1).svg" alt="logo" >
+            </a>
+      
+        <ul class="menu-list">
+            <li class="menu-item">
+                <a class="menu-list-item" href="#about-us">About  us </a></li>
+            <li class="menu-item">
+                <a class="menu-list-item" href="#our-collection">Our collection </a></li>
+            <li class="menu-item">
+                <a class="menu-list-item" href="#your-order">CUSTOMER ORDER</a></li>
+                <li class="menu-item">
+                    <a class="menu-list-item" href="#testimonials">TEstimonials</a></li> 
+                    <!-- 
+                        href="#about-us"
+                        href="#our-collection"
+                        href="#your-order"
+                        href="#testimonials"
+                        Для якірних посилань
+                     -->
+        </ul>
+    </nav>
     
+    <address class="menu-address-list">
+        <div class="address-nav">
+        <ul class="menu-address-list-item">
+            <li >
+                 <a class="menu-addres-list-link" href="tel:+380684439426">+380 (68) 443-94-26</a>
+            </li>
+        </ul>
+    </div>
+    </address>
+    <div class="social-page">
+    <ul class="social-list"> 
+        <li class="social-list-link"> 
+            <a class="social-list-link-icon" href="https://www.facebook.com/goITclub/"  target="_blank">
+            <svg class="social-list-icon" width="28" height="28">
+                <use href="../img/icon.svg#icon-facebook"></use>
+            </svg>
+        </a>
+        </li>
+        <li class="social-list-link">
+            <a class="social-list-link-icon" href="https://www.instagram.com/goitclub/ "  target="_blank">
+            <svg  class="social-list-icon" width="28" height="28">
+                <use href="../img/icon.svg#icon-instagram" ></use>
+            </svg>
+        </a>
+        </li>
+        <li class="social-list-link">
+            <a class="social-list-link-icon" href="https://www.youtube.com/c/GoIT "  target="_blank">
+            <svg class="social-list-icon" width="28" height="28" >
+                <use href="../img/icon.svg#icon-youtube"></use>
+            </svg>
+        </a>
+        </li>
+    </ul>
+    <button class="mobile-open-btn js-open-menu" type="button">
+        <svg class="mobile-open-btn-icon" width="36" height="24">
+          <use href="../img/icon.svg#icon-nav"></use>
+        </svg>
+      </button>
+    </div>
+</div> 
+</header>
+<div class="mobile-menu js-menu-container">
+    <div class="mobile-menu-container">
+        <div class="mobile-head">
+        <address class="menu-address-list">
+            <div class="address-nav">
+            <ul class="menu-address-list-item-mobile">
+                <li >
+                     <a class="menu-addres-list-link" href="tel:+380684439426">+380 (68) 443-94-26</a>
+                </li>
+            </ul>
+        </div>
+        </address>
+        <button
+        class="modal-close-btn js-close-menu"
+        type="button"
+        aria-label="modal close button">
+        <svg class="modal-close-btn-icon" width="36" height="36">
+          <use href="../img/icon.svg#icon-close"></use>
+        </svg>
+      </button>
+    </div>
+      <nav class="page-nav-mobile">
+        <ul class="menu-list-mobile">
+          <li class="menu-item-mobile">
+            <a class="menu-addres-list-link-mobile-navig" href="#about-us">About us</a>
+        </li>
+          <li class="menu-item-mobile">
+            <a class="menu-addres-list-link-mobile-navig" href="#our-collection">Our collection </a>
+        </li>
+          <li class="menu-item-mobile">
+            <a class="menu-addres-list-link-mobile-navig" href="your-order">CUSTOMER ORDER</a>
+        </li>
+    </li>
+    <li class="menu-item-mobile">
+      <a class="menu-addres-list-link-mobile-navig" href="#testimonials">TEstimonials</a>
+  </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
     <main>
       <section class="hero">
   <div class="container hero-container flex-hero-container">
@@ -263,18 +369,46 @@ alt="Yasen Shirt" />
 </ul> 
 </div>
 </section>
-      <section class="order" id="your-order">
+      
+<section class="order" id="your-oder">
+    <div class="container">
+<picture>
+   
+    <source media="(min-width: 1280px)"
+        srcset="../img/desktop/order-bg-desktop.png 1x, ../img/desktop/order-bg-desktop@2x.png 2x" type="image/png" />
+  
+    <source media="(min-width: 768px)"
+        srcset="../img/tablet/order-bg-tablet.png 1x, ../img/tablet/order-bg-tablet@2x.png 2x" type="image/png" />
+   
+    <source media="(max-width: 767px)"
+        srcset="../img/mobile/order-bg-mobile.jpg 1x, ../img/mobile/order-bg-mobile@2x.jpg 2x" type="image/jpg" />
+    <img class="order-bg-img" src="../img/mobile/order-bg-mobile.jpg" alt="Ukrainian girl" width="375" height="550"
+        loading="lazy" />
+</picture>
+
+<div class="container-desktop">
+
+<section class="order" id="your-order">
 <div class="container container-desktop">
+
     <div class="order-container">
 <h2 class="order-title"> <span class="order-words">Your order</span> is our priority: Personalized approach and quality of service</h2>
 <form class="order-form">
     <div class="order-form-container">
     <label class="label-form" for="name"></label>
+
+    <input class="text-form" type="text" name="user_name" id="name" placeholder="Enter your full name" pattern="[a-z]">
+    </div>
+    <div class="order-form-container">
+    <label class="label-form" for="email"></label>
+    <input class="text-form" type="email" name="user_email" id="email" placeholder="Enter your email">
+
     <input class="text-form" type="text" name="user_name" id="name" placeholder="Enter your full name" pattern="[a-zA-Z]+" required>
     </div>
     <div class="order-form-container">
     <label class="label-form" for="email"></label>
     <input class="text-form" type="email" name="user_email" id="email" placeholder="Enter your email" pattern="" required>
+
     </div>
     <div class="order-form-container">
     <label class="label-form" for="comments"></label>
@@ -282,27 +416,47 @@ alt="Yasen Shirt" />
     </div>
     <button class="send-btn" type="submit">Send
         <svg class="order-send-icon" width="26" height="10">
+
+            <use href="../img/icon.svg#icon-untitled"></use>
+
             <use href="/Web-Spiders/assets/icon-6cce4881.svg#icon-untitled"></use>
+
         </svg>
     </button>
 </form>
 </div>
 <div class="picture-container">
     <picture>
-        <!-- Dekstop screen -->
+        
         <source media="(min-width: 1280px)"
+
+            srcset="../img/desktop/collection-content-desktop.jpg 1x, ../img/desktop//collection-content-desktop@2x.jpg 2x"
+            type="image/jpg" />
+       
+        <source media="(min-width: 768px)"
+            srcset="../img/tablet/order-content-tablet.jpg 1x, ../img/tablet/order-content-tablet@2x.jpg 2x"
+            type="image/jpg" />
+        <img class="picture-vyshivanka" src="../img/tablet/order-content-tablet.jpg" alt="Vyshyvanka" width="638"
+
             srcset="/Web-Spiders/assets/collection-content-desktop-c34245c8.jpg 1x, /Web-Spiders/assets/collection-content-desktop@2x-8970a212.jpg 2x"
             type="image/jpg" />
-        <!-- Tablet screen -->
+      
         <source media="(min-width: 768px)"
             srcset="/Web-Spiders/assets/order-content-tablet-d704889a.jpg 1x, /Web-Spiders/assets/order-content-tablet@2x-c9045b65.jpg 2x"
             type="image/jpg" />
         <img class="picture-vyshivanka" src="/Web-Spiders/assets/order-content-tablet-d704889a.jpg" alt="Vyshyvanka" width="638"
+
             height="521" loading="lazy" />
     </picture>
     </div>
     </div>
+
+</div>
 </section>
+
+</section>
+
+
       <section class="testimonials" id="testimonials">
     <div class="container">
     <h2 class="testimonials-title">Testimonials</h2>
