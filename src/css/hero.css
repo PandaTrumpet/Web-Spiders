@@ -87,8 +87,13 @@
 
     .icon-star {
         margin-bottom: 16px;
+        fill: #FCF9F9;
+        transition: fill 350ms ease-in-out;
+        }
+    .icon-star:hover {
+        fill:#ECD979;
     }
-
+   
     .icon-star-text {
         width: 115px;
         text-align: center;
