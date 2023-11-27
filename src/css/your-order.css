@@ -125,6 +125,11 @@ margin-left: 0;
 margin-right: 0;
 margin-left: 0;
 margin-bottom: 100px;
+transition: border 300ms ease-in-out;
+}
+.send-btn:hover,
+.send-btn:focus{
+border: 1px solid #ECD979;
 }
  .picture-vyshivanka {
     display: block;
