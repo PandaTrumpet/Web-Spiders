@@ -61,7 +61,7 @@ color: rgba(252, 249, 249, 0.50);
 }
 .send-btn{
     display:inline-flex;
-    height: 49px;
+    /* height: 49px; */
     width: 145px;
     padding: 14px 36px;
     gap: 10px;
@@ -79,7 +79,14 @@ color: rgba(252, 249, 249, 0.50);
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
+    transition: border 300ms ease-in-out;
 }
+
+.send-btn:hover,
+.send-btn:focus{
+border: 1px solid #ECD979;
+}
+
 .order-send-icon{
     line-height: 0;
 }
