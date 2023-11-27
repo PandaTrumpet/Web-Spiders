@@ -1,9 +1,6 @@
 .picture-vyshivanka{
     display: none;
 }
-.order {
-    max-width: 1440px;
-}
 .order-bg-img{
     min-width: 375px;
     height: 550px;
@@ -15,6 +12,10 @@
     margin-right: auto;
     margin-bottom: 80px;
 }
+.order {
+    max-width: 1440px;
+}
+
 .order-title{
     max-width: 335px;
     /* margin-left: auto;
@@ -99,12 +100,13 @@
     fill:#ECD979;
 }
 
+/* MOBILE ORDER STYLE /*/
+
+/* TABLET ORDER STYLE */
 @media screen and (min-width: 768px) {
     .container {
         max-width: 768px;
     }
-
-  <<<<<<< Your-order
 
     .order {
         padding-top: 876px;
@@ -162,101 +164,26 @@
         /* margin-left: 98px; */
         padding-bottom: 50px;
     }
+
     .order-container {
         display: flex;
         flex-direction: column;
     }
 }
+
 /* TABLET ORDER STYLE /*/
 /* DESKTOP ORDER STYLE */
-    .order{
-        background-image: url(../img/tablet/order-ornament-bg-tablet.png);
-        background-position:bottom left;
-        background-repeat: no-repeat;
-        background-size: 322px 481px;
-        position: relative;
-
-    .order {
-        padding-top: 876px;
-        padding-bottom: 50px;
-        background-image: url(../img/tablet/order-bg-tablet.png), url(../img/tablet/order-ornament-bg-tablet.png);
-        background-position: top, left bottom;
-        background-repeat: no-repeat, no-repeat;
-        background-size: 788px, 269px;
-    }
-
-    @media (min-device-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-        .order {
-            background-image: url(../img/tablet/order-bg-tablet@2x.png), url(../img/tablet/order-ornament-bg-tablet@2x.png);
-        }
-    }
-
-    .order-title {
-        max-width: 542px;
-        font-size: 44px;
-        line-height: 1.318;
-        letter-spacing: -0.03em;
-        margin-right: 0;
-        margin-left: 0;
-    }
-
-    .text-form {
-        height: 50px;
-        width: 508px;
-    }
-
-    .comments-form {
-        height: 196px;
-        width: 508px;
-    }
-
-    .send-btn {
-        margin-right: 0;
-        margin-left: 0;
-        margin-bottom: 100px;
-        transition: border 300ms ease-in-out;
-    }
-.order-title {
-max-width: 542px;
-font-size: 44px;
-line-height: 1.318;
-letter-spacing: -0.03em;
-margin-right: 0;
-margin-left: 0;
-}
-.text-form {
-    height: 50px;
-    width: 508px;
-}
-.comments-form {
-    height: 196px;
-     width: 508px;
-}
-.send-btn {
-margin-right: 0;
-margin-left: 0;
-margin-bottom: 100px;
-}
- .picture-vyshivanka {
-     display: block;
-    width: 638px;
-     height: 615px;
-     border-radius: 4px;
-     margin-left: 98px;
-     padding-bottom: 94px;
- }
- }
 @media screen and (min-width: 1280px) {
     .container {
         max-width: 1113px;
     }
+
     .order {
         background-image: url(../img/desktop/order-bg-desktop.png), url(../img/desktop/collection-ornament-bg-desktop.png);
         background-size: 1282px, 250px 484px;
         padding-top: 926px;
     }
+
     @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
@@ -272,6 +199,7 @@ margin-bottom: 100px;
         width: 576px;
         height: 521px;
     }
+
     .container-desktop {
         display: flex;
         flex-direction: row-reverse;
@@ -285,27 +213,4 @@ margin-bottom: 100px;
     .send-btn {
         margin-bottom: 0;
     }
-     .order-bg-img {
-        width: 1282px;
-        height: 776px;
-        margin-bottom: 150px;
-}
-.picture-vyshivanka{
-display: flex;
-flex-direction: row;
-padding-right: 50px;
-}
-.container-desktop{
-    display:flex;
-    flex-direction: row-reverse;
-    justify-content: flex-end;
-    flex-wrap: nowrap;
-    gap: unset;
-}
-.order-container{
-    padding-left:  0;
-}
-.send-btn{
-    margin-bottom: 0;
-  }
 }
