@@ -6,8 +6,7 @@
   background-position: center bottom;
   padding-bottom: 292px;
 }
-.footer-container {
-}
+
 
 .footer-menu-link {
   color: #fcf9f9;
@@ -47,6 +46,7 @@
   .page-footer {
     background-image: url(../img/mobile/footer-bg-mobile@2x.png);
     background-size: 375px 211px;
+
   }
 }
 
@@ -85,6 +85,7 @@
   .page-footer {
     background-image: url(../img/tablet/footer-bg-tablet@2x.png);
     background-size: 174px 370px;
+
   }
 }
 
@@ -114,5 +115,8 @@
   .page-footer {
     background-image: url(../img/desktop/footer-bg-desktop@2x.png);
     background-size: 336px 363px;
+
+    
+
   }
 }
