@@ -147,16 +147,13 @@
     .main-title-link-container {
         padding-top: 94px;
         padding-bottom: 169px;
+        margin-bottom: 0;
     }
 
 
     .main-title {
         max-width: 518px;
         margin-bottom: 40px;
-    }
-
-    .order-link-container {
-        margin-bottom: 0;
     }
 
     .icon-star-container {
