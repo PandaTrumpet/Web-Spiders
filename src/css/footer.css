@@ -5,15 +5,21 @@
   background-repeat: no-repeat;
   background-position: center bottom;
   padding-bottom: 292px;
+  max-width: 1440px;
+
+
+  
 }
-.footer-container {
-}
+
 
 .footer-menu-link {
   color: #fcf9f9;
   font-size: 14px;
   line-height: 1.29;
   text-transform: uppercase;
+  transition: color 350ms ease-in-out;
+}.footer-menu-link:hover {
+  color: #ECD979;
 }
 
 .footer-title {
@@ -46,6 +52,8 @@
   screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
   .page-footer {
     background-image: url(../img/mobile/footer-bg-mobile@2x.png);
+    background-size: 375px 211px;
+
   }
 }
 
@@ -74,8 +82,21 @@
     background-image: url('../img/tablet/footer-bg-tablet.png');
     background-position: right bottom;
     background-repeat: no-repeat;
+    
     padding-top: 40px;
     padding-bottom: 40px;
+     
+  }
+}
+
+
+@media screen and (min-width: 768px) and (min-resolution: 192dpi),
+  screen and (min-resolution: 2dppx) and (min-width: 768px),
+  screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
+  .page-footer {
+    background-image: url(../img/tablet/footer-bg-tablet@2x.png);
+    background-size: 174px 370px;
+
   }
 }
 
@@ -95,5 +116,18 @@
     width: 754px;
     font-size: 64px;
     line-height: 1.15;
+  }
+}
+
+
+@media screen and (min-width: 1280px) and (min-resolution: 192dpi),
+  screen and (min-resolution: 2dppx) and (min-width: 1280px),
+  screen and (min-device-pixel-ratio: 2) and (min-width: 1280px) {
+  .page-footer {
+    background-image: url(../img/desktop/footer-bg-desktop@2x.png);
+    background-size: 336px 363px;
+
+    
+
   }
 }
