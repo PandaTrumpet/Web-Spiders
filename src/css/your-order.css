@@ -1,25 +1,28 @@
+.order {
+    padding-top: 630px;
+    padding-bottom: 40px;
+    background-image: url(../img/mobile/order-bg-mobile.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 375px;
+}
+
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .order {
+        background-image: url(../img/mobile/order-bg-mobile@2x.jpg);
+    }
+}
 .picture-vyshivanka{
     display: none;
 }
-.order-bg-img{
-    min-width: 375px;
-    height: 550px;
-    margin-bottom: 80px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 80px;
-}
 .order {
     max-width: 1440px;
+    margin: 0 auto;
 }
-
 .order-title{
     max-width: 335px;
-    /* margin-left: auto;
-    margin-right: auto; */
     font-size: 32px;
     font-weight: 500;
     line-height: 1.375;
@@ -60,7 +63,6 @@
 .text-form:focus{
     border-color:rgba(252, 249, 249, 0.60);
     outline-color:transparent;
-    /* outline-offset: 4px; */
     color: #FCF9F9;
 }
 
@@ -108,7 +110,6 @@
     .container {
         max-width: 768px;
     }
-
     .order {
         padding-top: 876px;
         padding-bottom: 50px;
@@ -180,11 +181,12 @@
     }
 
     .order {
+        padding: 0;
         background-image: url(../img/desktop/order-bg-desktop.png), url(../img/desktop/collection-ornament-bg-desktop.png);
         background-size: 1282px, 250px 484px;
         padding-top: 926px;
+        background-clip: border-box, content-box;
     }
-
     @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
@@ -195,9 +197,8 @@
     .picture-vyshivanka {
         display: flex;
         flex-direction: row;
-        padding-right: 50px;
         padding-bottom: 0;
-        width: 576px;
+        max-width: 100%;
         height: 521px;
     }
 
@@ -206,12 +207,17 @@
         flex-direction: row-reverse;
         justify-content: flex-end;
         flex-wrap: nowrap;
-        gap: unset;
+        gap: 50px;
+
     }
-    .order-container {
+    .order-container{
         padding-left: 0;
-    }
+    } 
     .send-btn {
+        margin-top: 0;
         margin-bottom: 0;
+    }
+    .photo{
+        height: 521px;
     }
 }
