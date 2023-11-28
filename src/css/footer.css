@@ -18,7 +18,8 @@
   line-height: 1.29;
   text-transform: uppercase;
   transition: color 350ms ease-in-out;
-}.footer-menu-link:hover {
+}.footer-menu-link:hover,
+.footer-menu-link:focus {
   color: #ECD979;
 }
 
