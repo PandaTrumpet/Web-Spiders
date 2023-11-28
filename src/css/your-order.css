@@ -101,7 +101,6 @@
     line-height: 0;
     fill:#ECD979;
 }
-
 /* MOBILE ORDER STYLE /*/
 
 /* TABLET ORDER STYLE */
@@ -125,7 +124,6 @@
             background-image: url(../img/tablet/order-bg-tablet@2x.png), url(../img/tablet/order-ornament-bg-tablet@2x.png);
         }
     }
-
     .order-title {
         max-width: 542px;
         font-size: 44px;
@@ -160,10 +158,9 @@
     .picture-vyshivanka {
         display: block;
         width: 638px;
-        height: 571px;
+        height: 521px;
         border-radius: 4px;
-        /* margin-left: 98px; */
-        padding-bottom: 50px;
+        margin-bottom: 50px;
     }
 
     .order-container {
@@ -171,7 +168,6 @@
         flex-direction: column;
     }
 }
-
 /* TABLET ORDER STYLE /*/
 /* DESKTOP ORDER STYLE */
 @media screen and (min-width: 1280px) {
