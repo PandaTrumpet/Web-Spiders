@@ -1,0 +1,102 @@
+.testimonials {
+    padding-top: 41px;
+    padding-bottom: 80px;
+    max-width: 1440px;
+}
+.testimonials-title {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 1.375;
+    margin-bottom: 64px;
+}
+.testimonials-list {
+    display: flex;
+    flex-direction: column;
+}
+.testimonials-item.rybachok {
+    display: none;
+}
+.testimonials-item.chatuk {
+    display: none;
+}
+.testimonials-container {
+position: relative;
+}
+.testimonials-item {
+    padding: 54px 18px 18px 18px;
+    border: 1px solid rgba(252, 249, 249, 0.1);
+    border-radius: 4px;
+    text-align: center;
+}
+.testimonials-thumb {
+    position: absolute;
+    top: -44%;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+
+.testimonials-name {
+    margin-bottom: 8px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.5;
+}
+.testimonials-text {
+    color: rgba(252, 249, 249, 0.4);
+    font-size: 14px;
+    line-height: normal;
+}
+
+
+@media screen and (min-width:768px) {
+    .testimonials {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .testimonials-title {
+        font-size: 44px;
+        line-height: 1.45;
+        margin-bottom: 64px;
+    }
+    .testimonials-list {
+        flex-direction: row;
+        gap: 32px;
+    }
+    .testimonials-item.rybachok {
+        display: block;
+    }
+    .testimonials-thumb.rybachok {
+        top: -35%;
+    }
+    /* .testimonials-name {
+        font-size: 16px;
+        line-height: 1.4;
+    } */
+    .testimonials-text {
+        min-width: 300px;
+        font-weight: 400;
+        font-size: 16px;
+    
+    }
+    .testimonials-thumb {
+        top: -40%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+@media screen and (min-width:1280px) {
+    .testimonials {
+        padding-top: 150px;
+        padding-bottom: 150px;
+    }
+    .testimonials-item.chatuk {
+        display: block;
+    }
+    .testimonials-list {
+        gap: 26px;
+    }
+    .testimonials-thumb.chatuk {
+        top: -34%;
+    }
+    }
