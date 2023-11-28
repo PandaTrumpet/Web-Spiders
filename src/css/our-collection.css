@@ -1,4 +1,8 @@
-   
+    .section-collection {
+      max-width: 1440px;
+      margin: 0 auto;
+    }
+
    .section-collection {
     padding-bottom: 80px;
     padding-top: 18px;
