@@ -114,15 +114,3 @@
 }
 /* / ========= desktop 1280px styles ========= */
 
-/* ========= desktop 1440px styles ========= */
-@media screen and (min-width: 1440px) {
-    .about-us-text-1 {
-        width: 481px;
-    }
-    .about-us-text-2 {
-        width: 481px;
-    }
-}
-
-
-/* / ========= desktop 1440px styles ========= */
