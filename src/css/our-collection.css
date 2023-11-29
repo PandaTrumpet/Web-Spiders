@@ -1,4 +1,8 @@
-   
+    .section-collection {
+      max-width: 1440px;
+      margin: 0 auto;
+    }
+
    .section-collection {
     padding-bottom: 80px;
     padding-top: 18px;
@@ -127,7 +131,7 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
     padding-top: 70px;
     background-image: url(../img/desktop/collection-bg-desktop.png);
     background-repeat: no-repeat;
-    background-position: -0.14% 29%;
+    background-position: -0.14% 27%;
     background-size: 165px;
 }
 
