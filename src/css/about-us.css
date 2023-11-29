@@ -34,6 +34,7 @@
     background-position: right bottom;
     background-repeat: no-repeat;
     max-width: 1440px;
+    margin: 0 auto;
 }
 @media screen and (min-resolution: 192dpi) {
     .about-us-wrapper {
