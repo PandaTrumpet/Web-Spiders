@@ -57,13 +57,13 @@ margin-bottom: 50px;
     .about-us-text-1 {
     font-size: 16px;
     letter-spacing: -0.04em;
-    width: 704px;
+    max-width: 704px;
     }
     .about-us-text-2 {
     font-size: 16px;
     letter-spacing: -0.04em;
     
-    width: 704px;
+    max-width: 704px;
     }
     .text-container {
          margin-bottom: 40px;}
