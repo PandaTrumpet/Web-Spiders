@@ -150,10 +150,12 @@
         transition: border 300ms ease-in-out;
     }
 
-    .send-btn:hover,
+   .send-btn:hover,
     .send-btn:focus {
         border: 1px solid #ECD979;
-    }
+        outline-offset: 5px;
+        outline: transparent;
+    } 
 
     .picture-vyshivanka {
         display: block;
