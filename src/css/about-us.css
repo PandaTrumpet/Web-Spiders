@@ -15,7 +15,7 @@
     letter-spacing: -0.04em;
     display: block;
     margin-bottom: 20px;
-    width: 335px;
+    max-width: 335px;
 }
 .about-us-text-2 {
     color: rgba(252, 249, 249, 0.40);
@@ -24,7 +24,7 @@
     letter-spacing: -0.04em;
     display: block;
     
-    width: 335px;
+    max-width: 335px;
 }
 .text-container {
 margin-bottom: 50px;
