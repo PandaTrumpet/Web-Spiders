@@ -39,8 +39,8 @@
 }
 
 
-.order-link-container:hover, .order-link-container:focus {
-
+.order-link-container:hover, 
+.order-link-container:focus {
 
     border: 1px solid #ECD979;
 }
