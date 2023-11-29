@@ -1,4 +1,8 @@
-   
+    .section-collection {
+      max-width: 1440px;
+      margin: 0 auto;
+    }
+
    .section-collection {
     padding-bottom: 80px;
     padding-top: 18px;
@@ -15,13 +19,12 @@
     }
   .title-collection {
       margin: 0 auto;
-      width: 198px;
       margin-bottom: 40px;
       font-size: 32px;
       font-weight: 500;
       line-height: 1.3;
       letter-spacing: -0.03em;
-      text-align: left;
+      text-align: center;
       color: rgba(252, 249, 249, 1);
   }
 
@@ -82,16 +85,13 @@
         height: 430px;
         }
     .title-collection {
-    width: 272px;
     margin-bottom: 40px;
     font-size: 44px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: -0.03em;
-    text-align: left;
+    text-align: center;
     color: rgba(252, 249, 249, 1);
-    margin-left: 238px;
-
     }
 
     .collection-list {
@@ -127,7 +127,7 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
     padding-top: 70px;
     background-image: url(../img/desktop/collection-bg-desktop.png);
     background-repeat: no-repeat;
-    background-position: -0.14% 29%;
+    background-position: -0.14% 27%;
     background-size: 165px;
 }
 
@@ -151,12 +151,11 @@ justify-content: center;
     .title-collection {
     font-size: 44px;
     font-weight: 500;
-    margin: 0 auto;
-    width: 272px;
     margin-bottom: 40px;
     line-height: 1.5;
+    display: block;
     letter-spacing: -0.03em;
-    text-align: left;
+    text-align: center;
     color: rgba(252, 249, 249, 1);
     }
     .collection-item {

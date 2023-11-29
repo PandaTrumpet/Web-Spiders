@@ -23,8 +23,11 @@
     font-weight: 400;
     letter-spacing: -0.04em;
     display: block;
-    margin-bottom: 50px;
+    
     width: 335px;
+}
+.text-container {
+margin-bottom: 50px;
 }
 
 .about-us-wrapper {
@@ -34,6 +37,7 @@
     background-position: right bottom;
     background-repeat: no-repeat;
     max-width: 1440px;
+    margin: 0 auto;
 }
 @media screen and (min-resolution: 192dpi) {
     .about-us-wrapper {
@@ -58,9 +62,11 @@
     .about-us-text-2 {
     font-size: 16px;
     letter-spacing: -0.04em;
-    margin-bottom: 40px;
+    
     width: 704px;
     }
+    .text-container {
+         margin-bottom: 40px;}
     .about-us-wrapper {
         padding-top: 50px;
         padding-bottom: 50px;
@@ -113,13 +119,3 @@
 }
 /* / ========= desktop 1280px styles ========= */
 
-/* ========= desktop 1440px styles ========= */
-@media screen and (min-width: 1440px) {
-    .about-us-text-1 {
-        width: 481px;
-    }
-    .about-us-text-2 {
-        width: 481px;
-    }
-}
-/* / ========= desktop 1440px styles ========= */
